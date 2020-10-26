@@ -1,13 +1,18 @@
 {
-    "name": "Chato",
-    "version": "0.0.1",
-    "description": "Chat with friends while browsing!",
-    "background": {
-        "scripts": ["core.js"],
-        "persistent": false
-      },
-      "permissions": [
-        "storage"
-      ],
-    "manifest_version": 2
+  "name": "Chato",
+  "version": "0.0.1",
+  "description": "Chat with friends while browsing!",
+  "background": {
+    "scripts": [
+      "core.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "manifest_version": 2
 }
