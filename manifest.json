@@ -6,5 +6,8 @@
         "scripts": ["core.js"],
         "persistent": false
       },
+      "permissions": [
+        "storage"
+      ],
     "manifest_version": 2
 }
