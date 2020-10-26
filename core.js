@@ -7,6 +7,6 @@ function uuidv4() {
 chrome.runtime.onInstalled.addListener(function() {
     const chat_id = uuidv4();
     chrome.storage.sync.set({ id, chat_id }, function(){
-        console.log("chat id: ", chat_id)
+        console.log("chat id: "+ chat_id)
     })
 });
