@@ -1,0 +1,10 @@
+{
+    "name": "Chato",
+    "version": "0.0.1",
+    "description": "Chat with friends while browsing!",
+    "background": {
+        "scripts": ["core.js"],
+        "persistent": false
+      },
+    "manifest_version": 1
+}
